@@ -1,4 +1,7 @@
 fun main() {
-    println("Hello World!!")
-    println("Pizda")
+    pizdaInfo()
+}
+
+fun pizdaInfo(){
+    println(readln())
 }
