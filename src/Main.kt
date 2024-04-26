@@ -1,7 +1,8 @@
 fun main() {
-    pizdaInfo()
+    pizdaInfo(200, 28)
 }
 
-fun pizdaInfo(){
+fun pizdaInfo(a: Int, b: Int) {
     println(readln())
+    println("Сумма: ${a+b}")
 }
